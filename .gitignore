@@ -1,0 +1,14 @@
+# Vivado build and temporary files
+build/
+*.jou
+*.log
+*.str
+*.wdb
+*.wdf
+*.pb
+*.db
+*.dir/
+
+# OS generated files
+.DS_Store
+Thumbs.db
