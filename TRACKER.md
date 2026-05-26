@@ -37,9 +37,9 @@ This document tracks the phased 5-week implementation plan for the Standalone IN
 
 ## Week 5: UVM Verification and Hardware Benchmarking
 **Goal:** Prove absolute robustness and evaluate physical performance.
-- [ ] Construct the Universal Verification Methodology (UVM) testbench framework.
-- [ ] Implement DPI-C C++ high-level reference model for the UVM Scoreboard.
-- [ ] Embed temporal SystemVerilog Assertions (SVA) natively within RTL modules.
-- [ ] Inject targeted edge-case UVM sequences (4KB boundaries, aggressive AXI backpressure, max-value ReLU clamping).
+- [x] Construct the Universal Verification Methodology (UVM) testbench framework.
+- [x] Implement DPI-C C++ high-level reference model for the UVM Scoreboard.
+- [x] Embed temporal SystemVerilog Assertions (SVA) natively within RTL modules.
+- [x] Inject targeted edge-case UVM sequences (4KB boundaries, aggressive AXI backpressure, max-value ReLU clamping).
 - [ ] Synthesize RTL for Xilinx Zynq-7000 (Zybo Z7-10) FPGA architecture.
 - [ ] **Verification:** 100% UVM randomized test pass rate. Zero SVA failures. DSP48E1 block inference confirmed. Roofline model performance metrics documented.
